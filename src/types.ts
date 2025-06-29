@@ -1,4 +1,4 @@
-import { AxiosProxyConfig } from 'axios';
+import { ProxyConfig } from './utils/network';
 
 export interface EventData {
   id: string;
@@ -94,7 +94,7 @@ export interface EventCategory {
 }
 
 export interface ScrapeOptions {
-  proxy?: AxiosProxyConfig;
+  proxy?: ProxyConfig;
 }
 
 export interface ShortEventData {
